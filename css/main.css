@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4e8598;
+    height: 668px;
+}
+
+.header__logo {
+    padding-bottom: 186px;
+    padding-top: 54px;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 1.41;
+    letter-spacing: 0.54px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px auto;
+    width: 594px;
+    height: 64px;
+    margin-bottom: 29px;
+}
+
+.header__button {
+    width: 218px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 2.92;
+    letter-spacing: 0.26px;
+    color: #ffffff;
+    border-radius: 27.5px;
+    border: solid 1px #ffffff;
+    margin: auto;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+}
+
+.header__img {
+    height: 16px;
+    margin: auto;
+    margin-bottom: 58px;
+    margin-top: 177px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__logo {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.27;
+    letter-spacing: 0.52px;
+    text-align: center;
+    margin-top: 138px;
+    margin-bottom: 89px;
+}
+
+.info__mission_logo {
+    font-family: Tahoma;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 33px;
+    letter-spacing: 0.44px;
+    text-align: left;
+}
+
+.info__mission_text {
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.pseudo:after {
+    content: "";
+    display: block;
+    background: #4e8598;
+    width: 72px;
+    height: 3px;
+    margin-top: 13px;
+    margin-bottom: 29px;
+}
+
+.info__merit_logo {
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.44px;
+    text-align: right;
+    width: 123px;
+    margin-top: 15px;
+}
+
+.item {
+    color: #4e8598;
+    display: flex;
+    margin-right: 24px;
+}
+
+img {
+    text-align: center;
+}
+
+.img {
+    width: 39px;
+    height: 38px;
+}
+
+.storm {
+    width: 21px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+h5 {
+    margin-left: 24px;
+}
+
+.item__text {
+    color: rgba(47, 56, 59, 0.48); !important;
+    margin-left: 29px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 1.27;
+    letter-spacing: 0.52px;
+    text-align: center;
+    color: #2f383b;
+}
+
+.main__menu {
+    display: flex;
+    margin-top: 68px;
+    margin-bottom: 64px;
+}
+
+.main__info {
+    border: solid 1px #2f383b;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.second {
+    color: #ffffff;
+    background-color: #2f383b;
+
+}
+
+.thirty {
+    margin-right: 0;
+}
+
+.main__info_text {
+    margin-right: 155px;
+    width: 210px;
+    height: 16px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2.06;
+    letter-spacing: 0.32px;
+    text-align: center;
+    color: #2f383b;
+}
+
+.first {
+    margin-right: 0;
+}
+
+.second__title {
+    margin-bottom: 25px;
+}
+
+.menu_text {
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 1.64;
+    letter-spacing: 0.28px;
+    text-align: center;
+    color: #2f383b;
+    margin-bottom: 27px;
+}
+
+.menu__button {
+    border: solid 1px #2f383b;
+    background-color: #2f383b;
+    width: 218px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 2.92;
+    letter-spacing: 0.26px;
+    color: #ffffff;
+    border-radius: 27.5px;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    margin: auto;
+}
+
+footer {
+    background: #2f383b;
+    color: white;
+    margin-top: 75px;
+}
+
+.footer {
+    display: flex;
+    height: 113px;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 2.92;
+    letter-spacing: 0.26px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer__first {
+    margin-right: 220px;
+}
+
+.footer__second {
+    margin-right: 205px;
+}
+
+.pseudo__first:after {
+    content: "";
+    display: block;
+    border: 1px dotted #ffffff;
+    opacity: 0.6;
+}
