@@ -110,7 +110,6 @@ header {
 }
 
 .item__first {
-    background: url("../img/bug.png") no-repeat left center;
     color: #4e8598;
     display: block;
     margin-right: 24px;
@@ -120,7 +119,6 @@ header {
 }
 
 .item__second {
-    background: url("../img/bell.png") no-repeat left center;
     color: #4e8598;
     display: block;
     padding-left: 25px;
@@ -129,7 +127,6 @@ header {
 }
 
 .item__third {
-    background: url("../img/storm.png") no-repeat left center;
     color: #4e8598;
     display: block;
     padding-left: 25px;
@@ -138,12 +135,30 @@ header {
 }
 
 .item__fourth {
-    background: url("../img/camera.png") no-repeat left center;
     color: #4e8598;
     display: block;
     padding-left: 25px;
     padding-bottom: 15px;
     padding-top: 10px;
+}
+
+#aboutme .item {
+    display: flex;
+    align-items: center;
+}
+
+#aboutme .item h5,
+#aboutme .item .item__text
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#aboutme .icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40px;
 }
 
 h5 {
