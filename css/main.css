@@ -66,8 +66,8 @@ header {
     line-height: 1.27;
     letter-spacing: 0.52px;
     text-align: center;
-    margin-top: 138px;
-    margin-bottom: 89px;
+    margin-top: 80px;
+    margin-bottom: 70px;
 }
 
 .info__mission_logo {
@@ -80,9 +80,11 @@ header {
 }
 
 .info__mission_text {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 1.6;
     letter-spacing: 0.3px;
+    text-align: left;
+    color: #2f383b;
 }
 
 .pseudo:after {
@@ -107,29 +109,51 @@ header {
     margin-top: 15px;
 }
 
-.item {
+.item__first {
+    background: url("../img/bug.png") no-repeat left center;
     color: #4e8598;
-    display: flex;
+    display: block;
     margin-right: 24px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
-img {
-    text-align: center;
+.item__second {
+    background: url("../img/bell.png") no-repeat left center;
+    color: #4e8598;
+    display: block;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
-.img {
-    width: 39px;
-    height: 38px;
+.item__third {
+    background: url("../img/storm.png") no-repeat left center;
+    color: #4e8598;
+    display: block;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
-.storm {
-    width: 21px;
-    height: 40px;
-    margin-left: 10px;
+.item__fourth {
+    background: url("../img/camera.png") no-repeat left center;
+    color: #4e8598;
+    display: block;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 h5 {
     margin-left: 24px;
+    display: inline;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #4e8598;
 }
 
 .item__text {
@@ -137,6 +161,11 @@ h5 {
     margin-left: 29px;
     margin-bottom: 0;
     margin-top: 20px;
+    display: inline;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    text-align: left;
 }
 
 h2 {
@@ -146,6 +175,10 @@ h2 {
     letter-spacing: 0.52px;
     text-align: center;
     color: #2f383b;
+}
+
+.main__logo {
+    margin-top: 157px;
 }
 
 .main__menu {
@@ -236,7 +269,7 @@ footer {
     white-space: nowrap;
     font-size: 13px;
     line-height: 2.92;
-    letter-spacing: 0.26px;
+    letter-spacing: 0.25px;
     text-align: left;
     color: rgba(255, 255, 255, 0.55);
 }
