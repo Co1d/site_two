@@ -47,6 +47,10 @@ header {
     padding: 10px 15px 10px 15px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header__img {
     height: 16px;
     margin: auto;
@@ -109,42 +113,13 @@ header {
     margin-top: 15px;
 }
 
-.item__first {
-    color: #4e8598;
-    display: block;
-    margin-right: 24px;
-    padding-left: 25px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
-
-.item__second {
-    color: #4e8598;
-    display: block;
-    padding-left: 25px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
-
-.item__third {
-    color: #4e8598;
-    display: block;
-    padding-left: 25px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
-
-.item__fourth {
-    color: #4e8598;
-    display: block;
-    padding-left: 25px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
-
 #aboutme .item {
     display: flex;
     align-items: center;
+    color: #4e8598;
+    margin-right: 24px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 #aboutme .item h5,
@@ -192,6 +167,10 @@ h2 {
     color: #2f383b;
 }
 
+.main {
+    text-align: center;
+}
+
 .main__logo {
     margin-top: 157px;
 }
@@ -200,6 +179,7 @@ h2 {
     display: flex;
     margin-top: 68px;
     margin-bottom: 64px;
+    justify-content: space-between;
 }
 
 .main__info {
@@ -212,7 +192,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 60px;
+    margin: 0 auto;
 }
 
 .second {
@@ -226,7 +206,6 @@ h2 {
 }
 
 .main__info_text {
-    margin-right: 155px;
     width: 210px;
     height: 16px;
     margin-top: 16px;
@@ -247,7 +226,6 @@ h2 {
 }
 
 .menu_text {
-    font-family: Tahoma;
     font-size: 14px;
     line-height: 1.64;
     letter-spacing: 0.28px;
@@ -271,6 +249,10 @@ h2 {
     margin: auto;
 }
 
+.menu_button_link {
+    color: #ffffff;
+}
+
 footer {
     background: #2f383b;
     color: white;
@@ -287,14 +269,11 @@ footer {
     letter-spacing: 0.25px;
     text-align: left;
     color: rgba(255, 255, 255, 0.55);
+    justify-content: space-between;
 }
 
-.footer__first {
-    margin-right: 220px;
-}
-
-.footer__second {
-    margin-right: 205px;
+.footer__third {
+    color: rgba(255, 255, 255, 0.55);
 }
 
 .pseudo__first:after {
@@ -302,4 +281,5 @@ footer {
     display: block;
     border: 1px dotted #ffffff;
     opacity: 0.6;
+    margin-top: -8px;
 }
